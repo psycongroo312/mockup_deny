@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MST_testTask</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo-title">BREAKLIMIT</h1>
+      <button class="burger" id="burger">&#9776;</button>
+      <nav class="nav" id="nav">
+        <ul class="nav__menu">
+          <li><a class="nav__link" href="#about">about</a></li>
+          <li><a class="nav__link" href="#signup">sign up</a></li>
+          <li><a class="nav__link" href="#contacts">contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <section class="intro-section">
+        <div class="intro-section__content">
+          <h1 class="intro-section__title">Join now!</h1>
+          <h1 class="intro-section__subtitle">
+            Get in while the 30% <br />discount is still available!
+          </h1>
+          <ul class="price-list">
+            <li>An annual subscription for $200</li>
+            <li>Semi-annual subscription for $100</li>
+            <li>$16 monthly subscription</li>
+          </ul>
+          <button class="btn-buy">BUY</button>
+        </div>
+
+        <img class="intro-section__img" src="img/GYM.png" alt="gym-error" />
+      </section>
+      <main class="about" id="about">
+        <img
+          class="about__img"
+          src="img/about__img.png"
+          alt="error"
+        />
+        <div class="about__description">
+          <ul class="about__features-list">
+            <li>
+              Strength Zone: Dumbbells, barbells and machines for strength and
+              muscle growth.
+            </li>
+            <li>Cardio Zone: Treadmills and exercise bikes for endurance.</li>
+            <li>
+              Functional Training: Flexibility and coordination programmes.
+            </li>
+            <li>Atmosphere: Energetic design and supportive trainers.</li>
+          </ul>
+          <button class="btn-main">BUY</button>
+        </div>
+        <img
+          class="about__img"
+          src="img/about__img2.png"
+          alt="error"
+        />
+      </main>
+      <section id="signup" class="register">
+        <div class="register__form-container">
+          <h1 class="register__title">Register <br />on the site</h1>
+          <form id="form" class="register__form">
+            <input
+              id="inputName"
+              class="form__input"
+              type="text"
+              name="name"
+              placeholder="Name"
+            />
+            <input
+              id="inputEmail"
+              class="form__input"
+              type="text"
+              name="e-mail"
+              placeholder="E-mail"
+            />
+            <label> <input type="checkbox" /> I accept Privacy policy </label>
+            <button id="btn-register" class="btn-register">Register</button>
+          </form>
+        </div>
+        <img
+          class="register__img"
+          src="img/register__img.png"
+          alt="error"
+        />
+      </section>
+      <footer class="footer">
+        <div class="footer__keywords">
+          <p class="footer__keyword">#POWER</p>
+          <p class="footer__keyword">#TARGET</p>
+          <p class="footer__keyword">#BREAKLIMIT</p>
+        </div>
+        <hr class="footer__line" />
+        <div class="footer__content">
+          <div class="footer__brand">
+            <h1>BREAKLIMIT</h1>
+            <p>© 2025, Copyright.</p>
+          </div>
+          <div id="contacts" class="footer__contacts">
+            <div class="footer__icons">
+              <img
+                class="footer__icon"
+                src="img/Component icons (6).svg"
+                alt="error"
+              />
+              <img
+                class="footer__icon"
+                src="img/Component icons (5).svg"
+                alt="error"
+              />
+              <img
+                class="footer__icon"
+                src="img/Component icons (1).svg"
+                alt="error"
+              />
+              <img
+                class="footer__icon"
+                src="img/Component icons (4).svg"
+                alt="error"
+              />
+              <img
+                class="footer__icon"
+                src="img/Component icons (2).svg"
+                alt="error"
+              />
+              <img
+                class="footer__icon"
+                src="img/Component icons (3).svg"
+                alt="error"
+              />
+            </div>
+            <p>Privacy policy</p>
+          </div>
+          <div class="footer-content__btn">
+            <button class="footer-btn">Join</button>
+            <p>Terms of Use</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
